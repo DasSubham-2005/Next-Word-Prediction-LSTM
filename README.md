@@ -6,6 +6,10 @@ The project takes a sequence of words as input and predicts the most probable ne
 
 ---
 
+## 🚀 Live Demo
+
+🔗 [Try NeuroChat AI – Live App](https://next-word-prediction-lstm-subham.streamlit.app/)
+
 ## ✨ Features
 
 - 🧠 LSTM-based Next Word Prediction
@@ -49,16 +53,16 @@ Next Word Prediction
 
 ### Model Configuration
 
-| Component | Configuration |
-|---|---|
-| Model Type | LSTM |
-| Embedding Dimension | 100 |
-| LSTM Units | 150 |
-| Vocabulary Size | 4994 |
-| Output Layer | Dense |
-| Output Activation | Softmax |
-| Loss Function | Categorical Crossentropy |
-| Optimizer | Adam |
+| Component           | Configuration            |
+| ------------------- | ------------------------ |
+| Model Type          | LSTM                     |
+| Embedding Dimension | 100                      |
+| LSTM Units          | 150                      |
+| Vocabulary Size     | 4994                     |
+| Output Layer        | Dense                    |
+| Output Activation   | Softmax                  |
+| Loss Function       | Categorical Crossentropy |
+| Optimizer           | Adam                     |
 
 ---
 
@@ -521,7 +525,6 @@ model/
 
 `dataset.txt` is only needed if you want to retrain or rebuild the model; it is not required for prediction after the trained model and tokenizer have been saved.
 
-
 Make sure the model paths inside `app.py` match the project structure.
 
 ---
@@ -610,4 +613,3 @@ The main objective of this project is to build a deep-learning-based language mo
 The trained LSTM model is integrated with a Streamlit chatbot interface to demonstrate how a machine learning model can be converted into an interactive application.
 
 ---
-
