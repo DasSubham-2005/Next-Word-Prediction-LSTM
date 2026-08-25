@@ -177,7 +177,7 @@ The model selects the words with the highest predicted probability.
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/DasSubham-2005/Next-Word-Prediction-LSTM.git
 ```
 
 ### 2. Open the project
